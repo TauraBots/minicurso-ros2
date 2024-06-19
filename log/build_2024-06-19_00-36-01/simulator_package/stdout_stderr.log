@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/simulator_package/simulator_package.egg-info
+writing ../../build/simulator_package/simulator_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/simulator_package/simulator_package.egg-info/dependency_links.txt
+writing entry points to ../../build/simulator_package/simulator_package.egg-info/entry_points.txt
+writing requirements to ../../build/simulator_package/simulator_package.egg-info/requires.txt
+writing top-level names to ../../build/simulator_package/simulator_package.egg-info/top_level.txt
+writing manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mauricio/minicurso-ros2/build/simulator_package/build
+creating /home/mauricio/minicurso-ros2/build/simulator_package/build/lib
+creating /home/mauricio/minicurso-ros2/build/simulator_package/build/lib/simulator_package
+copying simulator_package/__init__.py -> /home/mauricio/minicurso-ros2/build/simulator_package/build/lib/simulator_package
+copying simulator_package/simulator_node.py -> /home/mauricio/minicurso-ros2/build/simulator_package/build/lib/simulator_package
+running install
+running install_lib
+creating /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package
+copying /home/mauricio/minicurso-ros2/build/simulator_package/build/lib/simulator_package/__init__.py -> /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package
+copying /home/mauricio/minicurso-ros2/build/simulator_package/build/lib/simulator_package/simulator_node.py -> /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package
+byte-compiling /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package/simulator_node.py to simulator_node.cpython-310.pyc
+running install_data
+creating /home/mauricio/minicurso-ros2/install/simulator_package/share/ament_index
+creating /home/mauricio/minicurso-ros2/install/simulator_package/share/ament_index/resource_index
+creating /home/mauricio/minicurso-ros2/install/simulator_package/share/ament_index/resource_index/packages
+copying resource/simulator_package -> /home/mauricio/minicurso-ros2/install/simulator_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/mauricio/minicurso-ros2/install/simulator_package/share/simulator_package
+running install_egg_info
+Copying ../../build/simulator_package/simulator_package.egg-info to /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simulator script to /home/mauricio/minicurso-ros2/install/simulator_package/lib/simulator_package
+writing list of installed files to '/home/mauricio/minicurso-ros2/build/simulator_package/install.log'

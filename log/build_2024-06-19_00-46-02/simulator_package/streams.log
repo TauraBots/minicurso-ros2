@@ -1,0 +1,24 @@
+[0.517s] Invoking command in '/home/mauricio/minicurso-ros2/src/simulator_package': PYTHONPATH=/home/mauricio/minicurso-ros2/build/simulator_package/prefix_override:/home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulator_package build --build-base /home/mauricio/minicurso-ros2/build/simulator_package/build install --record /home/mauricio/minicurso-ros2/build/simulator_package/install.log --single-version-externally-managed install_data
+[0.743s] running egg_info
+[0.744s] writing ../../build/simulator_package/simulator_package.egg-info/PKG-INFO
+[0.744s] writing dependency_links to ../../build/simulator_package/simulator_package.egg-info/dependency_links.txt
+[0.744s] writing entry points to ../../build/simulator_package/simulator_package.egg-info/entry_points.txt
+[0.744s] writing requirements to ../../build/simulator_package/simulator_package.egg-info/requires.txt
+[0.744s] writing top-level names to ../../build/simulator_package/simulator_package.egg-info/top_level.txt
+[0.745s] reading manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+[0.746s] writing manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+[0.746s] running build
+[0.746s] running build_py
+[0.746s] copying simulator_package/simulator_node.py -> /home/mauricio/minicurso-ros2/build/simulator_package/build/lib/simulator_package
+[0.746s] running install
+[0.746s] running install_lib
+[0.747s] copying /home/mauricio/minicurso-ros2/build/simulator_package/build/lib/simulator_package/simulator_node.py -> /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package
+[0.747s] byte-compiling /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package/simulator_node.py to simulator_node.cpython-310.pyc
+[0.748s] running install_data
+[0.748s] running install_egg_info
+[0.749s] removing '/home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.749s] Copying ../../build/simulator_package/simulator_package.egg-info to /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info
+[0.749s] running install_scripts
+[0.763s] Installing simulator script to /home/mauricio/minicurso-ros2/install/simulator_package/lib/simulator_package
+[0.763s] writing list of installed files to '/home/mauricio/minicurso-ros2/build/simulator_package/install.log'
+[0.779s] Invoked command in '/home/mauricio/minicurso-ros2/src/simulator_package' returned '0': PYTHONPATH=/home/mauricio/minicurso-ros2/build/simulator_package/prefix_override:/home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulator_package build --build-base /home/mauricio/minicurso-ros2/build/simulator_package/build install --record /home/mauricio/minicurso-ros2/build/simulator_package/install.log --single-version-externally-managed install_data
