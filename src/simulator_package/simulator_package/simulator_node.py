@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 import pygame
 import sys
+from std_msgs.msg import Int16
 
 
 class PongSimulator(Node):
@@ -9,6 +10,7 @@ class PongSimulator(Node):
         super().__init__("pong_simulator")
         self.init_pygame()
         self.create_timer(0.016, self.update)
+        self.subscriber = self.create_subscription(Int16, "blue_paddle_control", self.update_blue_position, 10) 
 
     def init_pygame(self):
         pygame.init()
@@ -31,6 +33,11 @@ class PongSimulator(Node):
         self.blue_score = 0
         self.red_score = 0
 
+
+    def update_blue_position(self, msg):
+        self.blue_paddle_pos[1] = msg.data
+        self.get_logger().info(f"update_blue_position {self.blue_paddle_pos}")
+        
     def draw_elements(self):
         self.window.fill(self.GREEN)
         pygame.draw.rect(
@@ -61,13 +68,7 @@ class PongSimulator(Node):
                 sys.exit()
 
         keys = pygame.key.get_pressed()
-        if keys[pygame.K_w] and self.blue_paddle_pos[1] > 0:
-            self.blue_paddle_pos[1] -= 5
-        if (
-            keys[pygame.K_s]
-            and self.blue_paddle_pos[1] < self.height - self.paddle_height
-        ):
-            self.blue_paddle_pos[1] += 5
+
         if keys[pygame.K_UP] and self.red_paddle_pos[1] > 0:
             self.red_paddle_pos[1] -= 5
         if (
