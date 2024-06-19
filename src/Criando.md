@@ -31,3 +31,4 @@ Aqui criamos um novo arquivo chamado simulator_node.py
 touch simulator_node.py
 ```
 
+

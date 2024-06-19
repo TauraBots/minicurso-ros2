@@ -10,8 +10,12 @@ class PongSimulator(Node):
         super().__init__("pong_simulator")
         self.init_pygame()
         self.create_timer(0.016, self.update)
-        self.blue_subscriber = self.create_subscription(Int16, "blue_paddle_control", self.update_blue_position, 10) 
-        self.red_subscriber = self.create_subscription(Int16, 'red_paddle_control', self.update_red_position, 10)
+        self.blue_subscriber = self.create_subscription(
+            Int16, "blue_paddle_control", self.update_blue_position, 10
+        )
+        self.red_subscriber = self.create_subscription(
+            Int16, "red_paddle_control", self.update_red_position, 10
+        )
         self.ball_publisher = self.create_publisher(Int16, "ball_position", 10)
 
     def init_pygame(self):
@@ -35,15 +39,14 @@ class PongSimulator(Node):
         self.blue_score = 0
         self.red_score = 0
 
-
     def update_blue_position(self, msg):
         self.blue_paddle_pos[1] = msg.data
         self.get_logger().info(f"update_blue_position {self.blue_paddle_pos}")
-    
+
     def update_red_position(self, msg):
         self.red_paddle_pos[1] = msg.data
         self.get_logger().info(f"update_red_position {self.red_paddle_pos}")
-        
+
     def draw_elements(self):
         self.window.fill(self.GREEN)
         pygame.draw.rect(
@@ -71,7 +74,7 @@ class PongSimulator(Node):
         self.update_ball_position()
         self.draw_elements()
         pygame.display.flip()
-        
+
     def update_ball(self):
         msg = Int16()
         msg.data = self.ball_pos[1]
@@ -103,10 +106,10 @@ class PongSimulator(Node):
             self.ball_velocity[0] = -self.ball_velocity[0]
 
         # Pontuação
-        if self.ball_pos[0] <= 0:
+        if self.ball_pos[0] <= 5:
             self.red_score += 1
             self.reset_ball()
-        if self.ball_pos[0] >= self.width:
+        if self.ball_pos[0] >= self.width - 5:
             self.blue_score += 1
             self.reset_ball()
 
