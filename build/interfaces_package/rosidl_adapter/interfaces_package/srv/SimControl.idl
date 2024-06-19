@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces_package/srv/SimControl.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces_package {
+  module srv {
+    struct SimControl_Request {
+      string action;
+    };
+    struct SimControl_Response {
+      boolean success;
+    };
+  };
+};

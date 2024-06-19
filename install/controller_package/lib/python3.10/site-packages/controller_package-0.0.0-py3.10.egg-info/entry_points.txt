@@ -1,0 +1,3 @@
+[console_scripts]
+auto = controller_package.auto_controller:main
+

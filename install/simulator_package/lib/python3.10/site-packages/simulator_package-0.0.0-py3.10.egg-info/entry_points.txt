@@ -1,0 +1,4 @@
+[console_scripts]
+gui = simulator_package.gui:main
+pong2d = simulator_package.simulator_node:main
+

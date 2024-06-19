@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/simulator_package/simulator_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/simulator_package/simulator_package.egg-info/dependency_links.txt
+writing entry points to ../../build/simulator_package/simulator_package.egg-info/entry_points.txt
+writing requirements to ../../build/simulator_package/simulator_package.egg-info/requires.txt
+writing top-level names to ../../build/simulator_package/simulator_package.egg-info/top_level.txt
+reading manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying simulator_package/simulator_node.py -> /home/mauricio/ros2_ws/build/simulator_package/build/lib/simulator_package
+copying simulator_package/gui.py -> /home/mauricio/ros2_ws/build/simulator_package/build/lib/simulator_package
+running install
+running install_lib
+copying /home/mauricio/ros2_ws/build/simulator_package/build/lib/simulator_package/simulator_node.py -> /home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package
+copying /home/mauricio/ros2_ws/build/simulator_package/build/lib/simulator_package/gui.py -> /home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package
+byte-compiling /home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package/simulator_node.py to simulator_node.cpython-310.pyc
+byte-compiling /home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package/gui.py to gui.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/simulator_package/simulator_package.egg-info to /home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gui script to /home/mauricio/ros2_ws/install/simulator_package/lib/simulator_package
+Installing pong2d script to /home/mauricio/ros2_ws/install/simulator_package/lib/simulator_package
+writing list of installed files to '/home/mauricio/ros2_ws/build/simulator_package/install.log'

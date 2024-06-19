@@ -1,0 +1,159 @@
+[0.231s] Invoking command in '/home/mauricio/ros2_ws/build/interfaces_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/ros2_ws/install/simulator_package:/home/mauricio/ros2_ws/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --build /home/mauricio/ros2_ws/build/interfaces_package -- -j12 -l12
+[0.266s] [  3%] Built target interfaces_package__cpp
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_generator_c[0m
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_cpp[0m
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_fastrtps_cpp[0m
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_introspection_cpp[0m
+[0.277s] [ 12%] Built target interfaces_package__rosidl_generator_c
+[0.279s] [ 12%] Built target ament_cmake_python_copy_interfaces_package
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_c[0m
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_introspection_c[0m
+[0.287s] [ 22%] Built target interfaces_package__rosidl_typesupport_fastrtps_cpp
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_fastrtps_c[0m
+[0.288s] [ 32%] Built target interfaces_package__rosidl_typesupport_introspection_cpp
+[0.288s] [ 41%] Built target interfaces_package__rosidl_typesupport_cpp
+[0.297s] [ 61%] Built target interfaces_package__rosidl_typesupport_c
+[0.297s] [ 61%] Built target interfaces_package__rosidl_typesupport_introspection_c
+[0.300s] [ 70%] Built target interfaces_package__rosidl_typesupport_fastrtps_c
+[0.315s] [ 70%] Built target interfaces_package
+[0.329s] [ 74%] Built target interfaces_package__py
+[0.337s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_generator_py[0m
+[0.346s] [ 80%] Built target interfaces_package__rosidl_generator_py
+[0.355s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_introspection_c__pyext[0m
+[0.355s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.363s] [35m[1mConsolidate compiler generated dependencies of target interfaces_package__rosidl_typesupport_c__pyext[0m
+[0.369s] [ 87%] Built target interfaces_package__rosidl_typesupport_introspection_c__pyext
+[0.371s] [ 93%] Built target interfaces_package__rosidl_typesupport_fastrtps_c__pyext
+[0.375s] [100%] Built target interfaces_package__rosidl_typesupport_c__pyext
+[0.541s] running egg_info
+[0.541s] writing interfaces_package.egg-info/PKG-INFO
+[0.541s] writing dependency_links to interfaces_package.egg-info/dependency_links.txt
+[0.541s] writing top-level names to interfaces_package.egg-info/top_level.txt
+[0.544s] reading manifest file 'interfaces_package.egg-info/SOURCES.txt'
+[0.544s] writing manifest file 'interfaces_package.egg-info/SOURCES.txt'
+[0.564s] [100%] Built target ament_cmake_python_build_interfaces_package_egg
+[0.572s] Invoked command in '/home/mauricio/ros2_ws/build/interfaces_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/ros2_ws/install/simulator_package:/home/mauricio/ros2_ws/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --build /home/mauricio/ros2_ws/build/interfaces_package -- -j12 -l12
+[0.613s] Invoking command in '/home/mauricio/ros2_ws/build/interfaces_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/ros2_ws/install/simulator_package:/home/mauricio/ros2_ws/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --install /home/mauricio/ros2_ws/build/interfaces_package
+[0.619s] -- Install configuration: ""
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/ament_index/resource_index/rosidl_interfaces/interfaces_package
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_generator_c__visibility_control.h
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/sim_control.h
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__functions.c
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__struct.h
+[0.619s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__functions.h
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__type_support.h
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/library_path.sh
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/library_path.dsv
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_generator_c.so
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_fastrtps_c.h
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_fastrtps_c.so
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.620s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/sim_control.hpp
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__struct.hpp
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__traits.hpp
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__builder.hpp
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.621s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/dds_fastrtps
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_fastrtps_cpp.so
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_introspection_c.h
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__type_support.c
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_introspection_c.so
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_c.so
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.622s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__type_support.cpp
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_introspection_cpp.hpp
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_introspection_cpp.so
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_cpp.so
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/pythonpath.sh
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/pythonpath.dsv
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info
+[0.623s] -- Installing: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/top_level.txt
+[0.623s] -- Installing: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.623s] -- Installing: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/PKG-INFO
+[0.623s] -- Installing: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_introspection_c.c
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/__init__.py
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv
+[0.623s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv/_sim_control_s.c
+[0.624s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv/_sim_control.py
+[0.624s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv/__init__.py
+[0.624s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.624s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c
+[0.624s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/libinterfaces_package__rosidl_generator_py.so
+[0.624s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.624s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.651s] Listing '/home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package'...
+[0.651s] Listing '/home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv'...
+[0.654s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.654s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.654s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/lib/libinterfaces_package__rosidl_generator_py.so
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/srv/SimControl.idl
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/srv/SimControl.srv
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/srv/SimControl_Request.msg
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/srv/SimControl_Response.msg
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/ament_index/resource_index/package_run_dependencies/interfaces_package
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/ament_index/resource_index/parent_prefix_path/interfaces_package
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/ament_prefix_path.sh
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/ament_prefix_path.dsv
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/path.sh
+[0.655s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/environment/path.dsv
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/local_setup.bash
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/local_setup.sh
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/local_setup.zsh
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/local_setup.dsv
+[0.656s] -- Installing: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/package.dsv
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/ament_index/resource_index/packages/interfaces_package
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_cExport.cmake
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_cExport-noconfig.cmake
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cExport.cmake
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_cppExport.cmake
+[0.656s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cExport.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cExport.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cExport-noconfig.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cppExport.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cppExport.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cppExport-noconfig.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_pyExport.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_pyExport-noconfig.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/rosidl_cmake-extras.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.657s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_libraries-extras.cmake
+[0.658s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_targets-extras.cmake
+[0.658s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.658s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.658s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_packageConfig.cmake
+[0.658s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/cmake/interfaces_packageConfig-version.cmake
+[0.658s] -- Up-to-date: /home/mauricio/ros2_ws/install/interfaces_package/share/interfaces_package/package.xml
+[0.660s] Invoked command in '/home/mauricio/ros2_ws/build/interfaces_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/ros2_ws/install/simulator_package:/home/mauricio/ros2_ws/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --install /home/mauricio/ros2_ws/build/interfaces_package

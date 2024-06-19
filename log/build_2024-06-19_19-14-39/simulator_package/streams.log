@@ -1,0 +1,21 @@
+[0.765s] Invoking command in '/home/mauricio/ros2_ws/src/simulator_package': PYTHONPATH=/home/mauricio/ros2_ws/build/simulator_package/prefix_override:/home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulator_package build --build-base /home/mauricio/ros2_ws/build/simulator_package/build install --record /home/mauricio/ros2_ws/build/simulator_package/install.log --single-version-externally-managed install_data
+[0.978s] running egg_info
+[0.978s] writing ../../build/simulator_package/simulator_package.egg-info/PKG-INFO
+[0.978s] writing dependency_links to ../../build/simulator_package/simulator_package.egg-info/dependency_links.txt
+[0.979s] writing entry points to ../../build/simulator_package/simulator_package.egg-info/entry_points.txt
+[0.979s] writing requirements to ../../build/simulator_package/simulator_package.egg-info/requires.txt
+[0.979s] writing top-level names to ../../build/simulator_package/simulator_package.egg-info/top_level.txt
+[0.980s] reading manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+[0.980s] writing manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+[0.981s] running build
+[0.981s] running build_py
+[0.981s] running install
+[0.981s] running install_lib
+[0.982s] running install_data
+[0.982s] running install_egg_info
+[0.983s] removing '/home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.983s] Copying ../../build/simulator_package/simulator_package.egg-info to /home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info
+[0.984s] running install_scripts
+[0.998s] Installing pong2d script to /home/mauricio/ros2_ws/install/simulator_package/lib/simulator_package
+[0.998s] writing list of installed files to '/home/mauricio/ros2_ws/build/simulator_package/install.log'
+[1.022s] Invoked command in '/home/mauricio/ros2_ws/src/simulator_package' returned '0': PYTHONPATH=/home/mauricio/ros2_ws/build/simulator_package/prefix_override:/home/mauricio/ros2_ws/install/simulator_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulator_package build --build-base /home/mauricio/ros2_ws/build/simulator_package/build install --record /home/mauricio/ros2_ws/build/simulator_package/install.log --single-version-externally-managed install_data
