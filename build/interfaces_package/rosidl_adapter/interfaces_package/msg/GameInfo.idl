@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces_package/msg/GameInfo.msg
+// generated code does not contain a copyright notice
+
+#include "interfaces_package/msg/Int16.idl"
+
+module interfaces_package {
+  module msg {
+    struct GameInfo {
+      sequence<interfaces_package::msg::Int16> blue_position;
+
+      sequence<interfaces_package::msg::Int16> ball_position;
+    };
+  };
+};

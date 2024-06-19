@@ -1,0 +1,21 @@
+[1.245s] Invoking command in '/home/mauricio/minicurso-ros2/src/auto_paddle_package': PYTHONPATH=/home/mauricio/minicurso-ros2/build/auto_paddle_package/prefix_override:/home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_paddle_package build --build-base /home/mauricio/minicurso-ros2/build/auto_paddle_package/build install --record /home/mauricio/minicurso-ros2/build/auto_paddle_package/install.log --single-version-externally-managed install_data
+[1.547s] running egg_info
+[1.549s] writing ../../build/auto_paddle_package/auto_paddle_package.egg-info/PKG-INFO
+[1.549s] writing dependency_links to ../../build/auto_paddle_package/auto_paddle_package.egg-info/dependency_links.txt
+[1.549s] writing entry points to ../../build/auto_paddle_package/auto_paddle_package.egg-info/entry_points.txt
+[1.549s] writing requirements to ../../build/auto_paddle_package/auto_paddle_package.egg-info/requires.txt
+[1.549s] writing top-level names to ../../build/auto_paddle_package/auto_paddle_package.egg-info/top_level.txt
+[1.552s] reading manifest file '../../build/auto_paddle_package/auto_paddle_package.egg-info/SOURCES.txt'
+[1.554s] writing manifest file '../../build/auto_paddle_package/auto_paddle_package.egg-info/SOURCES.txt'
+[1.554s] running build
+[1.554s] running build_py
+[1.554s] running install
+[1.555s] running install_lib
+[1.557s] running install_data
+[1.557s] running install_egg_info
+[1.560s] removing '/home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages/auto_paddle_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.560s] Copying ../../build/auto_paddle_package/auto_paddle_package.egg-info to /home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages/auto_paddle_package-0.0.0-py3.10.egg-info
+[1.562s] running install_scripts
+[1.588s] Installing auto_paddle script to /home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/auto_paddle_package
+[1.588s] writing list of installed files to '/home/mauricio/minicurso-ros2/build/auto_paddle_package/install.log'
+[1.628s] Invoked command in '/home/mauricio/minicurso-ros2/src/auto_paddle_package' returned '0': PYTHONPATH=/home/mauricio/minicurso-ros2/build/auto_paddle_package/prefix_override:/home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_paddle_package build --build-base /home/mauricio/minicurso-ros2/build/auto_paddle_package/build install --record /home/mauricio/minicurso-ros2/build/auto_paddle_package/install.log --single-version-externally-managed install_data

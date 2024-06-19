@@ -1,0 +1,21 @@
+[0.318s] Invoking command in '/home/mauricio/minicurso-ros2/build/interfaces_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/minicurso-ros2/install/simulator_package:/home/mauricio/minicurso-ros2/install/paddle_controller_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/navigation_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/taurabots/soccer-client/install/sender_package:/home/mauricio/Documents/taurabots/soccer-client/install/robots_package:/home/mauricio/Documents/taurabots/soccer-client/install/receiver_package:/home/mauricio/Documents/taurabots/soccer-client/install/manager_package:/home/mauricio/Documents/taurabots/soccer-client/install/controller_package:/home/mauricio/Documents/taurabots/soccer-client/install/behavior_package:/opt/ros/humble /usr/bin/cmake /home/mauricio/minicurso-ros2/src/interfaces_package -DCMAKE_INSTALL_PREFIX=/home/mauricio/minicurso-ros2/install/interfaces_package
+[0.608s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.609s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[0.609s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.610s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.610s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.610s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.610s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.611s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.811s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.811s]   Packages installing interfaces must include
+[0.811s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.811s]   package.xml
+[0.811s] Call Stack (most recent call first):
+[0.812s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.812s] 
+[0.812s] [0m
+[0.812s] -- Configuring incomplete, errors occurred!
+[0.812s] See also "/home/mauricio/minicurso-ros2/build/interfaces_package/CMakeFiles/CMakeOutput.log".
+[0.900s] Invoked command in '/home/mauricio/minicurso-ros2/build/interfaces_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/minicurso-ros2/install/simulator_package:/home/mauricio/minicurso-ros2/install/paddle_controller_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/navigation_package:/home/mauricio/Documents/taurabots/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/taurabots/soccer-client/install/sender_package:/home/mauricio/Documents/taurabots/soccer-client/install/robots_package:/home/mauricio/Documents/taurabots/soccer-client/install/receiver_package:/home/mauricio/Documents/taurabots/soccer-client/install/manager_package:/home/mauricio/Documents/taurabots/soccer-client/install/controller_package:/home/mauricio/Documents/taurabots/soccer-client/install/behavior_package:/opt/ros/humble /usr/bin/cmake /home/mauricio/minicurso-ros2/src/interfaces_package -DCMAKE_INSTALL_PREFIX=/home/mauricio/minicurso-ros2/install/interfaces_package

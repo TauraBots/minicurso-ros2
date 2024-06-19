@@ -12,9 +12,8 @@ class PaddleController(Node):
         self.controller = self.create_publisher(Int16, 'blue_paddle_control', 10)
         self.y_position = 300
 
-        # Inicializando o Pygame para capturar eventos do teclado
         pygame.init()
-        self.screen = pygame.display.set_mode((200, 200))  # Janela para captura de eventos do teclado
+        self.screen = pygame.display.set_mode((200, 200))  
         pygame.display.set_caption("Paddle Controller")
 
     def update_position(self):
@@ -26,7 +25,7 @@ class PaddleController(Node):
         keys = pygame.key.get_pressed()
         if keys[pygame.K_w] and self.y_position > 0:
             self.y_position -= 5
-        elif keys[pygame.K_s] and self.y_position < 600:
+        elif keys[pygame.K_s] and self.y_position < 500:
             self.y_position += 5
 
         msg = Int16()

@@ -10,7 +10,9 @@ class PongSimulator(Node):
         super().__init__("pong_simulator")
         self.init_pygame()
         self.create_timer(0.016, self.update)
-        self.subscriber = self.create_subscription(Int16, "blue_paddle_control", self.update_blue_position, 10) 
+        self.blue_subscriber = self.create_subscription(Int16, "blue_paddle_control", self.update_blue_position, 10) 
+        self.red_subscriber = self.create_subscription(Int16, 'red_paddle_control', self.update_red_position, 10)
+        self.ball_publisher = self.create_publisher(Int16, "ball_position", 10)
 
     def init_pygame(self):
         pygame.init()
@@ -37,6 +39,10 @@ class PongSimulator(Node):
     def update_blue_position(self, msg):
         self.blue_paddle_pos[1] = msg.data
         self.get_logger().info(f"update_blue_position {self.blue_paddle_pos}")
+    
+    def update_red_position(self, msg):
+        self.red_paddle_pos[1] = msg.data
+        self.get_logger().info(f"update_red_position {self.red_paddle_pos}")
         
     def draw_elements(self):
         self.window.fill(self.GREEN)
@@ -62,28 +68,19 @@ class PongSimulator(Node):
         )
 
     def update(self):
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
-
-        keys = pygame.key.get_pressed()
-
-        if keys[pygame.K_UP] and self.red_paddle_pos[1] > 0:
-            self.red_paddle_pos[1] -= 5
-        if (
-            keys[pygame.K_DOWN]
-            and self.red_paddle_pos[1] < self.height - self.paddle_height
-        ):
-            self.red_paddle_pos[1] += 5
-
         self.update_ball_position()
         self.draw_elements()
         pygame.display.flip()
+        
+    def update_ball(self):
+        msg = Int16()
+        msg.data = self.ball_pos[1]
+        self.ball_publisher.publish(msg)
 
     def update_ball_position(self):
         self.ball_pos[0] += self.ball_velocity[0]
         self.ball_pos[1] += self.ball_velocity[1]
+        self.update_ball()
 
         # Colisão com o topo e o fundo
         if self.ball_pos[1] <= 10 or self.ball_pos[1] >= self.height - 10:

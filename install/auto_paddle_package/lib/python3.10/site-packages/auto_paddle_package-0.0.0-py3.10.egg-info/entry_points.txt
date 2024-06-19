@@ -1,0 +1,3 @@
+[console_scripts]
+auto_paddle = auto_paddle_package.auto_paddle:main
+

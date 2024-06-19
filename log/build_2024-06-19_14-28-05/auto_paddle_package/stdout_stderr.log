@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/auto_paddle_package/auto_paddle_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_paddle_package/auto_paddle_package.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_paddle_package/auto_paddle_package.egg-info/entry_points.txt
+writing requirements to ../../build/auto_paddle_package/auto_paddle_package.egg-info/requires.txt
+writing top-level names to ../../build/auto_paddle_package/auto_paddle_package.egg-info/top_level.txt
+reading manifest file '../../build/auto_paddle_package/auto_paddle_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto_paddle_package/auto_paddle_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying auto_paddle_package/auto_paddle.py -> /home/mauricio/minicurso-ros2/build/auto_paddle_package/build/lib/auto_paddle_package
+running install
+running install_lib
+copying /home/mauricio/minicurso-ros2/build/auto_paddle_package/build/lib/auto_paddle_package/auto_paddle.py -> /home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages/auto_paddle_package
+byte-compiling /home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages/auto_paddle_package/auto_paddle.py to auto_paddle.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages/auto_paddle_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/auto_paddle_package/auto_paddle_package.egg-info to /home/mauricio/minicurso-ros2/install/auto_paddle_package/lib/python3.10/site-packages/auto_paddle_package-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mauricio/minicurso-ros2/build/auto_paddle_package/install.log'

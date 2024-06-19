@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'paddle_controller = paddle_controller_package.paddle_controller:main',
+            'keyboard_controller = paddle_controller_package.paddle_controller:main',
         ],
     },
 )

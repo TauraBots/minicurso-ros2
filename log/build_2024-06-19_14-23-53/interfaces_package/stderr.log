@@ -1,0 +1,32 @@
+In file included from [01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_c/interfaces_package/msg/detail/game_info__functions.h:19[m[K,
+                 from [01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_c/interfaces_package/msg/detail/game_info__functions.c:4[m[K:
+[01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_c/interfaces_package/msg/detail/game_info__struct.h:23:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces_package/msg/detail/int16__struct.h: No such file or directory
+   23 | #include [01;31m[K"interfaces_package/msg/detail/int16__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/interfaces_package__rosidl_generator_c.dir/build.make:137: CMakeFiles/interfaces_package__rosidl_generator_c.dir/rosidl_generator_c/interfaces_package/msg/detail/game_info__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/interfaces_package__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_typesupport_cpp/interfaces_package/msg/game_info__type_support.cpp:7[m[K:
+[01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_cpp/interfaces_package/msg/detail/game_info__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces_package/msg/detail/int16__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"interfaces_package/msg/detail/int16__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_typesupport_fastrtps_cpp/interfaces_package/msg/detail/game_info__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_typesupport_fastrtps_cpp/interfaces_package/msg/detail/dds_fastrtps/game_info__type_support.cpp:4[m[K:
+[01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_cpp/interfaces_package/msg/detail/game_info__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces_package/msg/detail/int16__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"interfaces_package/msg/detail/int16__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/interfaces_package__rosidl_typesupport_fastrtps_cpp.dir/build.make:123: CMakeFiles/interfaces_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces_package/msg/detail/dds_fastrtps/game_info__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/interfaces_package__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/interfaces_package__rosidl_typesupport_cpp.dir/build.make:118: CMakeFiles/interfaces_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces_package/msg/game_info__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/interfaces_package__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_typesupport_introspection_cpp/interfaces_package/msg/detail/game_info__type_support.cpp:12[m[K:
+[01m[K/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_cpp/interfaces_package/msg/detail/game_info__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces_package/msg/detail/int16__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"interfaces_package/msg/detail/int16__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/interfaces_package__rosidl_typesupport_introspection_cpp.dir/build.make:123: CMakeFiles/interfaces_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces_package/msg/detail/game_info__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/interfaces_package__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
