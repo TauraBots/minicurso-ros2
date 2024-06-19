@@ -8,8 +8,10 @@ setup.py
 ../../build/simulator_package/simulator_package.egg-info/requires.txt
 ../../build/simulator_package/simulator_package.egg-info/top_level.txt
 ../../build/simulator_package/simulator_package.egg-info/zip-safe
+launch/pong2d.py
 resource/simulator_package
 simulator_package/__init__.py
+simulator_package/gui_node.py
 simulator_package/simulator_node.py
 test/test_copyright.py
 test/test_flake8.py

@@ -69,37 +69,40 @@ include CMakeFiles/interfaces_package__rosidl_generator_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/interfaces_package__rosidl_generator_py.dir/flags.make
 
-CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o: CMakeFiles/interfaces_package__rosidl_generator_py.dir/flags.make
-CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o: rosidl_generator_py/interfaces_package/msg/_game_info_s.c
-CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o: CMakeFiles/interfaces_package__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/minicurso-ros2/build/interfaces_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o -MF CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o.d -o CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o -c /home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/msg/_game_info_s.c
+CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o: CMakeFiles/interfaces_package__rosidl_generator_py.dir/flags.make
+CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o: rosidl_generator_py/interfaces_package/srv/_sim_control_s.c
+CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o: CMakeFiles/interfaces_package__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/minicurso-ros2/build/interfaces_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o -MF CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o.d -o CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o -c /home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c
 
-CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/msg/_game_info_s.c > CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.i
+CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c > CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.i
 
-CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/msg/_game_info_s.c -o CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.s
+CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c -o CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.s
 
 # Object files for target interfaces_package__rosidl_generator_py
 interfaces_package__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o"
+"CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o"
 
 # External object files for target interfaces_package__rosidl_generator_py
 interfaces_package__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/msg/_game_info_s.c.o
+rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: CMakeFiles/interfaces_package__rosidl_generator_py.dir/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c.o
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: CMakeFiles/interfaces_package__rosidl_generator_py.dir/build.make
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: libinterfaces_package__rosidl_typesupport_c.so
+rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: libinterfaces_package__rosidl_generator_c.so
-rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 rosidl_generator_py/interfaces_package/libinterfaces_package__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so

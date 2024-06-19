@@ -1,0 +1,39 @@
+[0.235s] Invoking command in '/home/mauricio/minicurso-ros2/build/interfaces_package': /usr/bin/cmake --build /home/mauricio/minicurso-ros2/build/interfaces_package -- -j12 -l12
+[0.481s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.481s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.482s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.482s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.482s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.727s] Error parsing '/home/mauricio/minicurso-ros2/src/interfaces_package/package.xml':
+[0.761s] Traceback (most recent call last):
+[0.761s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.761s]     main()
+[0.761s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.761s]     raise e
+[0.762s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.762s]     package = parse_package_string(
+[0.762s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.764s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.764s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/mauricio/minicurso-ros2/src/interfaces_package/package.xml':
+[0.764s] Error(s):
+[0.764s] - The manifest of package "interfaces_package" (with format version 2) must not contain the following tags: member_of_group
+[0.779s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.779s]   execute_process(/usr/bin/python3
+[0.779s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.779s]   /home/mauricio/minicurso-ros2/src/interfaces_package/package.xml
+[0.779s]   /home/mauricio/minicurso-ros2/build/interfaces_package/ament_cmake_core/package.cmake)
+[0.780s]   returned error code 1
+[0.780s] Call Stack (most recent call first):
+[0.780s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.780s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.780s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.780s] 
+[0.780s] [0m
+[0.780s] -- Configuring incomplete, errors occurred!
+[0.780s] See also "/home/mauricio/minicurso-ros2/build/interfaces_package/CMakeFiles/CMakeOutput.log".
+[0.785s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.788s] Invoked command in '/home/mauricio/minicurso-ros2/build/interfaces_package' returned '2': /usr/bin/cmake --build /home/mauricio/minicurso-ros2/build/interfaces_package -- -j12 -l12

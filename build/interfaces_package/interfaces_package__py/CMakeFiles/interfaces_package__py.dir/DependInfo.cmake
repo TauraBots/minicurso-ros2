@@ -14,9 +14,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_introspection_c.c" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/msg/__init__.py" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/msg/_game_info.py" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/msg/_game_info_s.c" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/srv/__init__.py" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/srv/_sim_control.py" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/srv/_sim_control_s.c" "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

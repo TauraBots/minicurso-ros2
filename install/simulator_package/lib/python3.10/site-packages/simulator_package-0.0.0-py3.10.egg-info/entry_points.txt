@@ -1,3 +1,4 @@
 [console_scripts]
+gui = simulator_package.gui_node:main
 simulator = simulator_package.simulator_node:main
 

@@ -356,11 +356,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces_package/msg" TYPE FILE FILES "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_adapter/interfaces_package/msg/GameInfo.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces_package/srv" TYPE FILE FILES "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_adapter/interfaces_package/srv/SimControl.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces_package/msg" TYPE FILE FILES "/home/mauricio/minicurso-ros2/src/interfaces_package/msg/GameInfo.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces_package/srv" TYPE FILE FILES "/home/mauricio/minicurso-ros2/src/interfaces_package/srv/SimControl.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces_package/srv" TYPE FILE FILES "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_cmake/srv/SimControl_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces_package/srv" TYPE FILE FILES "/home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_cmake/srv/SimControl_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

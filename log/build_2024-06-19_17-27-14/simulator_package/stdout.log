@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/simulator_package/simulator_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/simulator_package/simulator_package.egg-info/dependency_links.txt
+writing entry points to ../../build/simulator_package/simulator_package.egg-info/entry_points.txt
+writing requirements to ../../build/simulator_package/simulator_package.egg-info/requires.txt
+writing top-level names to ../../build/simulator_package/simulator_package.egg-info/top_level.txt
+reading manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/simulator_package/simulator_package.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/pong2d.py -> /home/mauricio/minicurso-ros2/install/simulator_package/share/simulator_package/launch
+running install_egg_info
+removing '/home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/simulator_package/simulator_package.egg-info to /home/mauricio/minicurso-ros2/install/simulator_package/lib/python3.10/site-packages/simulator_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gui script to /home/mauricio/minicurso-ros2/install/simulator_package/lib/simulator_package
+Installing simulator script to /home/mauricio/minicurso-ros2/install/simulator_package/lib/simulator_package
+writing list of installed files to '/home/mauricio/minicurso-ros2/build/simulator_package/install.log'

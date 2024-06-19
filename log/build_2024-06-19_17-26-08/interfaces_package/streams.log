@@ -1,0 +1,167 @@
+[0.228s] Invoking command in '/home/mauricio/minicurso-ros2/build/interfaces_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --build /home/mauricio/minicurso-ros2/build/interfaces_package -- -j12 -l12
+[0.477s] [  9%] Built target interfaces_package__rosidl_generator_c
+[0.477s] [ 12%] Built target interfaces_package__cpp
+[0.477s] [ 12%] Built target ament_cmake_python_copy_interfaces_package
+[0.477s] [ 22%] Built target interfaces_package__rosidl_typesupport_fastrtps_c
+[0.477s] [ 32%] Built target interfaces_package__rosidl_typesupport_introspection_c
+[0.477s] [ 41%] Built target interfaces_package__rosidl_typesupport_c
+[0.477s] [ 51%] Built target interfaces_package__rosidl_typesupport_introspection_cpp
+[0.477s] [ 61%] Built target interfaces_package__rosidl_typesupport_fastrtps_cpp
+[0.477s] [ 70%] Built target interfaces_package__rosidl_typesupport_cpp
+[0.477s] [ 70%] Built target interfaces_package
+[0.477s] [ 74%] Built target interfaces_package__py
+[0.477s] [ 80%] Built target interfaces_package__rosidl_generator_py
+[0.477s] [ 93%] Built target interfaces_package__rosidl_typesupport_introspection_c__pyext
+[0.478s] [ 93%] Built target interfaces_package__rosidl_typesupport_fastrtps_c__pyext
+[0.478s] [100%] Built target interfaces_package__rosidl_typesupport_c__pyext
+[0.496s] running egg_info
+[0.496s] writing interfaces_package.egg-info/PKG-INFO
+[0.497s] writing dependency_links to interfaces_package.egg-info/dependency_links.txt
+[0.497s] writing top-level names to interfaces_package.egg-info/top_level.txt
+[0.498s] reading manifest file 'interfaces_package.egg-info/SOURCES.txt'
+[0.499s] writing manifest file 'interfaces_package.egg-info/SOURCES.txt'
+[0.520s] [100%] Built target ament_cmake_python_build_interfaces_package_egg
+[0.727s] Invoked command in '/home/mauricio/minicurso-ros2/build/interfaces_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --build /home/mauricio/minicurso-ros2/build/interfaces_package -- -j12 -l12
+[0.770s] Invoking command in '/home/mauricio/minicurso-ros2/build/interfaces_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --install /home/mauricio/minicurso-ros2/build/interfaces_package
+[0.774s] -- Install configuration: ""
+[0.774s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/ament_index/resource_index/rosidl_interfaces/interfaces_package
+[0.774s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.774s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/game_info.h
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_generator_c__visibility_control.h
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__functions.c
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__struct.h
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__type_support.h
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__functions.h
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/sim_control.h
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__functions.c
+[0.775s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__struct.h
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__functions.h
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__type_support.h
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/library_path.sh
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/library_path.dsv
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_generator_c.so
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.776s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_fastrtps_c.h
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_fastrtps_c.so
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/game_info.hpp
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__struct.hpp
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__traits.hpp
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__builder.hpp
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.777s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/sim_control.hpp
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__struct.hpp
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__traits.hpp
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__builder.hpp
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/dds_fastrtps
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.778s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/dds_fastrtps
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_fastrtps_cpp.so
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_introspection_c.h
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__type_support.c
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_introspection_c.so
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_c.so
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg
+[0.779s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__rosidl_typesupport_introspection_cpp.hpp
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/msg/detail/game_info__type_support.cpp
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__type_support.cpp
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/include/interfaces_package/interfaces_package/srv/detail/sim_control__rosidl_typesupport_introspection_cpp.hpp
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_introspection_cpp.so
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_typesupport_cpp.so
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/pythonpath.sh
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/pythonpath.dsv
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info
+[0.780s] -- Installing: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/top_level.txt
+[0.780s] -- Installing: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.780s] -- Installing: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/PKG-INFO
+[0.780s] -- Installing: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.780s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_introspection_c.c
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/__init__.py
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv/_sim_control_s.c
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv/_sim_control.py
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv/__init__.py
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/libinterfaces_package__rosidl_generator_py.so
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.781s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.804s] Listing '/home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package'...
+[0.804s] Listing '/home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/srv'...
+[0.808s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.808s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.808s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/local/lib/python3.10/dist-packages/interfaces_package/interfaces_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.808s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/lib/libinterfaces_package__rosidl_generator_py.so
+[0.809s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/srv/SimControl.idl
+[0.809s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/srv/SimControl.srv
+[0.809s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/srv/SimControl_Request.msg
+[0.809s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/srv/SimControl_Response.msg
+[0.809s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/ament_index/resource_index/package_run_dependencies/interfaces_package
+[0.810s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/ament_index/resource_index/parent_prefix_path/interfaces_package
+[0.810s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/ament_prefix_path.sh
+[0.810s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/ament_prefix_path.dsv
+[0.810s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/path.sh
+[0.810s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/environment/path.dsv
+[0.810s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/local_setup.bash
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/local_setup.sh
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/local_setup.zsh
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/local_setup.dsv
+[0.811s] -- Installing: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/package.dsv
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/ament_index/resource_index/packages/interfaces_package
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_cExport.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_cExport-noconfig.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cExport.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_cppExport.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cExport.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cExport.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cExport-noconfig.cmake
+[0.811s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cppExport.cmake
+[0.812s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.812s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cppExport.cmake
+[0.812s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_package__rosidl_typesupport_cppExport-noconfig.cmake
+[0.812s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_pyExport.cmake
+[0.812s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/export_interfaces_package__rosidl_generator_pyExport-noconfig.cmake
+[0.812s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/rosidl_cmake-extras.cmake
+[0.813s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.813s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.813s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_libraries-extras.cmake
+[0.813s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/ament_cmake_export_targets-extras.cmake
+[0.813s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.813s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.814s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_packageConfig.cmake
+[0.814s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/cmake/interfaces_packageConfig-version.cmake
+[0.814s] -- Up-to-date: /home/mauricio/minicurso-ros2/install/interfaces_package/share/interfaces_package/package.xml
+[0.814s] Invoked command in '/home/mauricio/minicurso-ros2/build/interfaces_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mauricio/Documents/Taura/soccer-client-ros2/install/trajectory_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/strategy_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/sender_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/robots_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/receiver_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/protobuf_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/manager_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/controller_package:/home/mauricio/Documents/Taura/soccer-client-ros2/install/behavior_package:/opt/ros/humble /usr/bin/cmake --install /home/mauricio/minicurso-ros2/build/interfaces_package

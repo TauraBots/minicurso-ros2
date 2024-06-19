@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/interfaces_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_package/msg/detail/game_info__type_support.c.o"
-  "CMakeFiles/interfaces_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_package/msg/detail/game_info__type_support.c.o.d"
+  "CMakeFiles/interfaces_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_package/srv/detail/sim_control__type_support.c.o"
+  "CMakeFiles/interfaces_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces_package/srv/detail/sim_control__type_support.c.o.d"
   "libinterfaces_package__rosidl_typesupport_introspection_c.pdb"
   "libinterfaces_package__rosidl_typesupport_introspection_c.so"
-  "rosidl_typesupport_introspection_c/interfaces_package/msg/detail/game_info__rosidl_typesupport_introspection_c.h"
-  "rosidl_typesupport_introspection_c/interfaces_package/msg/detail/game_info__type_support.c"
+  "rosidl_typesupport_introspection_c/interfaces_package/srv/detail/sim_control__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/interfaces_package/srv/detail/sim_control__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

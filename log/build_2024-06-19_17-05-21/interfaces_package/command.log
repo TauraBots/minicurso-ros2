@@ -1,0 +1,2 @@
+Invoking command in '/home/mauricio/minicurso-ros2/build/interfaces_package': /usr/bin/cmake --build /home/mauricio/minicurso-ros2/build/interfaces_package -- -j12 -l12
+Invoked command in '/home/mauricio/minicurso-ros2/build/interfaces_package' returned '2': /usr/bin/cmake --build /home/mauricio/minicurso-ros2/build/interfaces_package -- -j12 -l12

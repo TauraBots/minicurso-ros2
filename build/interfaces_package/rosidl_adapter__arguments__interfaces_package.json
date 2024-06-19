@@ -1,6 +1,6 @@
 {
   "package_name": "interfaces_package",
   "non_idl_tuples": [
-    "/home/mauricio/minicurso-ros2/src/interfaces_package:msg/GameInfo.msg"
+    "/home/mauricio/minicurso-ros2/src/interfaces_package:srv/SimControl.srv"
   ]
 }

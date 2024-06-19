@@ -69,9 +69,9 @@ include interfaces_package__py/CMakeFiles/interfaces_package__py.dir/progress.ma
 interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_introspection_c.c
 interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c
-interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/msg/_game_info.py
-interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/msg/__init__.py
-interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/msg/_game_info_s.c
+interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/srv/_sim_control.py
+interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/srv/__init__.py
+interfaces_package__py/CMakeFiles/interfaces_package__py: rosidl_generator_py/interfaces_package/srv/_sim_control_s.c
 
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -86,7 +86,36 @@ rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesuppo
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces_package/msg/GameInfo.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces_package/srv/SimControl.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -117,8 +146,6 @@ rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesuppo
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mauricio/minicurso-ros2/build/interfaces_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/mauricio/minicurso-ros2/build/interfaces_package/interfaces_package__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/mauricio/minicurso-ros2/build/interfaces_package/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -128,22 +155,22 @@ rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesuppo
 rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/interfaces_package/msg/_game_info.py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces_package/msg/_game_info.py
+rosidl_generator_py/interfaces_package/srv/_sim_control.py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces_package/srv/_sim_control.py
 
-rosidl_generator_py/interfaces_package/msg/__init__.py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces_package/msg/__init__.py
+rosidl_generator_py/interfaces_package/srv/__init__.py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces_package/srv/__init__.py
 
-rosidl_generator_py/interfaces_package/msg/_game_info_s.c: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces_package/msg/_game_info_s.c
+rosidl_generator_py/interfaces_package/srv/_sim_control_s.c: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces_package/srv/_sim_control_s.c
 
 interfaces_package__py: interfaces_package__py/CMakeFiles/interfaces_package__py
 interfaces_package__py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c
 interfaces_package__py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaces_package__py: rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_introspection_c.c
-interfaces_package__py: rosidl_generator_py/interfaces_package/msg/__init__.py
-interfaces_package__py: rosidl_generator_py/interfaces_package/msg/_game_info.py
-interfaces_package__py: rosidl_generator_py/interfaces_package/msg/_game_info_s.c
+interfaces_package__py: rosidl_generator_py/interfaces_package/srv/__init__.py
+interfaces_package__py: rosidl_generator_py/interfaces_package/srv/_sim_control.py
+interfaces_package__py: rosidl_generator_py/interfaces_package/srv/_sim_control_s.c
 interfaces_package__py: interfaces_package__py/CMakeFiles/interfaces_package__py.dir/build.make
 .PHONY : interfaces_package__py
 

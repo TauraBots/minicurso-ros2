@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interfaces_package__cpp"
-  "rosidl_generator_cpp/interfaces_package/msg/detail/game_info__builder.hpp"
-  "rosidl_generator_cpp/interfaces_package/msg/detail/game_info__struct.hpp"
-  "rosidl_generator_cpp/interfaces_package/msg/detail/game_info__traits.hpp"
-  "rosidl_generator_cpp/interfaces_package/msg/game_info.hpp"
+  "rosidl_generator_cpp/interfaces_package/srv/detail/sim_control__builder.hpp"
+  "rosidl_generator_cpp/interfaces_package/srv/detail/sim_control__struct.hpp"
+  "rosidl_generator_cpp/interfaces_package/srv/detail/sim_control__traits.hpp"
+  "rosidl_generator_cpp/interfaces_package/srv/sim_control.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -2,9 +2,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_c.c"
   "../rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/interfaces_package/_interfaces_package_s.ep.rosidl_typesupport_introspection_c.c"
-  "../rosidl_generator_py/interfaces_package/msg/__init__.py"
-  "../rosidl_generator_py/interfaces_package/msg/_game_info.py"
-  "../rosidl_generator_py/interfaces_package/msg/_game_info_s.c"
+  "../rosidl_generator_py/interfaces_package/srv/__init__.py"
+  "../rosidl_generator_py/interfaces_package/srv/_sim_control.py"
+  "../rosidl_generator_py/interfaces_package/srv/_sim_control_s.c"
   "CMakeFiles/interfaces_package__py"
 )
 
